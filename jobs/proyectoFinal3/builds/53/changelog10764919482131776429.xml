@@ -1,0 +1,9 @@
+commit 7c6c519271e2ecb5d93eb6ac1235d5c2d267a660
+tree 6133aff29b60ba1e07f4599e9fc8683cc6f3f921
+parent 6d8e0d8e94bf10c9bbb5818b4ae0effa5bfb056a
+author Keber Flores <keberflores@gmail.com> 2023-07-27 16:25:45 -0400
+committer GitHub <noreply@github.com> 2023-07-27 16:25:45 -0400
+
+    Update Jenkinsfile - fix docker logout before :latest push
+
+:100644 100644 aecc798eab57c189c4650bd0a7228f218235ba34 3e16fe1e3e68081177bf70a9b60dd4b8896a7d04 M	Jenkinsfile

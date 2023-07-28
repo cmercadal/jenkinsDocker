@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3705.va_6a_c2775a_c17">
+    <parentIds>
+      <string>46</string>
+    </parentIds>
+    <id>47</id>
+    <descriptorId>jenkins.plugins.git.GitStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3705.va_6a_c2775a_c17">
+      <arguments>
+        <entry>
+          <string>branch</string>
+          <string>main</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>git@github.com:keber/ProjectDevops.git</string>
+        </entry>
+        <entry>
+          <string>credentialsId</string>
+          <string>github-keber</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <startTime>1690325616788</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

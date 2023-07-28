@@ -1,0 +1,38 @@
+Started by user [8mha:////4P6DN5/ptVItoZ4OD4ihaxoC7SB6SFdPlrS5lyDT9tW/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/devopsCompleto
+The recommended git tool is: NONE
+using credential github
+Cloning the remote Git repository
+Cloning repository https://github.com/keber/ProjectDevops
+ > git init /var/jenkins_home/workspace/devopsCompleto # timeout=10
+Fetching upstream changes from https://github.com/keber/ProjectDevops
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials github
+ > git fetch --tags --force --progress -- https://github.com/keber/ProjectDevops +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- https://github.com/keber/ProjectDevops +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: detected dubious ownership in repository at '/var/jenkins_home/workspace/devopsCompleto'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/jenkins_home/workspace/devopsCompleto
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2842)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2185)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:635)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:871)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1222)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1305)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1245)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+ERROR: Error cloning remote repo 'origin'
+Finished: FAILURE

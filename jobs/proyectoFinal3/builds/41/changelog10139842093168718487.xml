@@ -1,0 +1,9 @@
+commit aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e
+tree e88af66a0cc1b36eb55dcd619bbe00dbdda35d39
+parent f130e2d5593d86839ec0f539509ef3d3292088c0
+author Keber Flores <keberflores@gmail.com> 2023-07-26 18:38:49 -0400
+committer GitHub <noreply@github.com> 2023-07-26 18:38:49 -0400
+
+    Update Jenkinsfile - slack notifications added on stages, push docker image stage added
+
+:100644 100644 356faec47aa5da03c91d89299913eb6ea1e10c53 238085c22f86611fbf01711b766dca9fb0bf9440 M	Jenkinsfile

@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@3705.va_6a_c2775a_c17">
+    <parentIds>
+      <string>119</string>
+    </parentIds>
+    <id>120</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <startTime>1690251646251</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <error class="hudson.AbortException">
+        <detailMessage>SonarQube installation defined in this job (sonar) does not match any configured installation. Number of installations that can be configured: 1.
+If you want to reassign jobs to a different SonarQube installation, check the documentation under https://redirect.sonarsource.com/plugins/jenkins.html</detailMessage>
+        <stackTrace>
+          <trace>hudson.plugins.sonar.SonarInstallation.checkValid(SonarInstallation.java:127)</trace>
+          <trace>hudson.plugins.sonar.SonarBuildWrapper.setUp(SonarBuildWrapper.java:106)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreWrapperStep$Execution2.doStart(CoreWrapperStep.java:121)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.GeneralNonBlockingStepExecution.lambda$run$0(GeneralNonBlockingStepExecution.java:77)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <wf.a.ErrorAction_-ErrorId>
+            <stackTrace/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>9b181bd4-b7b4-4157-809f-aeb9b83888e6</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.ErrorAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <error class="hudson.AbortException" reference="../../wf.a.ErrorAction/error"/>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

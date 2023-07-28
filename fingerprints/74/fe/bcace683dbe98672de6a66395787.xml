@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-07-18 00:32:58.285 UTC</timestamp>
+  <md5sum>74febcace683dbe98672de6a66395787</md5sum>
+  <fileName>Credential id=kubernete-jenkis-server-account name=kubernetes</fileName>
+  <usages>
+    <entry>
+      <string>kubernetes-ejemplo</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

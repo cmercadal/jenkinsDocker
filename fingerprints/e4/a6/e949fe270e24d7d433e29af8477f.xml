@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-07-27 17:19:44.814 UTC</timestamp>
+  <md5sum>e4a6e949fe270e24d7d433e29af8477f</md5sum>
+  <fileName>Credential id=dockerhub-keber name=keberflores/******</fileName>
+  <usages>
+    <entry>
+      <string>proyectoFinal3</string>
+      <ranges>45-55,57-63</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

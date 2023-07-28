@@ -1,0 +1,150 @@
+Started by user [8mha:////4P6DN5/ptVItoZ4OD4ihaxoC7SB6SFdPlrS5lyDT9tW/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/devopsCompleto
+The recommended git tool is: NONE
+using credential github
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/devopsCompleto/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/cmercadal/DevopsTestMerge.git # timeout=10
+Fetching upstream changes from https://github.com/cmercadal/DevopsTestMerge.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials github
+ > git fetch --tags --force --progress -- https://github.com/cmercadal/DevopsTestMerge.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 3d4104da90913ad7fac72e24170bcd38eadec238 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3d4104da90913ad7fac72e24170bcd38eadec238 # timeout=10
+Commit message: "push a feature"
+ > git rev-list --no-walk 3d4104da90913ad7fac72e24170bcd38eadec238 # timeout=10
+[devopsCompleto] $ /opt/maven/bin/mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.kibernumacademy:devops >---------------------
+[INFO] Building devops 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ devops ---
+[INFO] Deleting /var/jenkins_home/workspace/devopsCompleto/target
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ devops ---
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/var/jenkins_home/workspace/devopsCompleto/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ devops ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /var/jenkins_home/workspace/devopsCompleto/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ devops ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/devopsCompleto/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /var/jenkins_home/workspace/devopsCompleto/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ devops ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.kibernumacademy.devops.DevopsApplicationTests
+00:44:32.073 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:44:32.198 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:44:32.629 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kibernumacademy.devops.DevopsApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:44:32.810 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kibernumacademy.devops.DevopsApplicationTests], using SpringBootContextLoader
+00:44:32.878 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kibernumacademy.devops.DevopsApplicationTests]: class path resource [com/kibernumacademy/devops/DevopsApplicationTests-context.xml] does not exist
+00:44:32.887 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kibernumacademy.devops.DevopsApplicationTests]: class path resource [com/kibernumacademy/devops/DevopsApplicationTestsContext.groovy] does not exist
+00:44:32.888 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kibernumacademy.devops.DevopsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:44:32.895 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kibernumacademy.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:44:33.347 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kibernumacademy.devops.DevopsApplicationTests]
+00:44:33.861 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/jenkins_home/workspace/devopsCompleto/target/classes/com/kibernumacademy/devops/DevopsApplication.class]
+00:44:33.873 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kibernumacademy.devops.DevopsApplication for test class com.kibernumacademy.devops.DevopsApplicationTests
+00:44:35.663 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kibernumacademy.devops.DevopsApplicationTests]: using defaults.
+00:44:35.666 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+00:44:35.790 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1e57b783, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73b8ab2c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5600a278, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@549d14fe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77d54a41, org.springframework.test.context.support.DirtiesContextTestExecutionListener@41026e5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12421766, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2e44cb34, org.springframework.test.context.event.EventPublishingTestExecutionListener@731e0bff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@213ceb4e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23c72128, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2bd2430f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2890e479, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6eb00cbe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@74e4be21]
+00:44:35.841 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6cb194f5 testClass = DevopsApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@74b7497b testClass = DevopsApplicationTests, locations = '{}', classes = '{class com.kibernumacademy.devops.DevopsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@75b38c36, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5d1b1c2a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4c19d42e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@654e6a90, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@12f279b5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6865c751], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+00:44:36.256 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.4)
+
+2023-07-21 00:44:38.559  INFO 1354 --- [           main] c.k.devops.DevopsApplicationTests        : Starting DevopsApplicationTests using Java 11.0.19 on 10d90dcd0c6e with PID 1354 (started by root in /var/jenkins_home/workspace/devopsCompleto)
+2023-07-21 00:44:38.568  INFO 1354 --- [           main] c.k.devops.DevopsApplicationTests        : No active profile set, falling back to default profiles: default
+2023-07-21 00:44:43.883  INFO 1354 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 00:44:44.480  INFO 1354 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 548 ms. Found 1 JPA repository interfaces.
+2023-07-21 00:44:49.972  INFO 1354 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-21 00:44:53.874  INFO 1354 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-21 00:44:54.729  INFO 1354 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 00:44:55.647  INFO 1354 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-07-21 00:44:58.667  INFO 1354 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 00:45:01.459  INFO 1354 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-21 00:45:16.228  INFO 1354 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 00:45:16.372  INFO 1354 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 00:45:27.543  WARN 1354 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 00:45:38.119  INFO 1354 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:de431b12-da57-466e-b9b0-82248384d6f5'
+2023-07-21 00:47:48.278  INFO 1354 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f543415, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a62a47b, org.springframework.security.web.header.HeaderWriterFilter@406008f1, org.springframework.security.web.csrf.CsrfFilter@23abd107, org.springframework.security.web.authentication.logout.LogoutFilter@6695f71d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4748daf1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@35502a4c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1d08275e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f0bbe90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fdc53db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a98f045, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fd5e551, org.springframework.security.web.session.SessionManagementFilter@321d7d87, org.springframework.security.web.access.ExceptionTranslationFilter@2309707f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4928df2]
+2023-07-21 00:47:49.438  INFO 1354 --- [           main] c.k.devops.DevopsApplicationTests        : Started DevopsApplicationTests in 192.935 seconds (JVM running for 200.923)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 203.351 s - in com.kibernumacademy.devops.DevopsApplicationTests
+[INFO] Running com.kibernumacademy.devops.controllers.StudentControllerTest
+2023-07-21 00:47:58.274  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:47:58.274  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:47:58.275  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-07-21 00:48:01.367  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:48:01.368  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:48:01.369  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-07-21 00:48:01.536  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:48:01.537  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:48:01.538  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-07-21 00:48:01.555  INFO 1354 --- [           main] c.k.d.controllers.StudentController      : Student exists: true
+2023-07-21 00:48:01.625  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:48:01.626  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:48:01.627  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-07-21 00:48:01.725  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:48:01.731  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:48:01.731  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-07-21 00:48:02.033  INFO 1354 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-07-21 00:48:02.034  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-21 00:48:02.035  INFO 1354 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.684 s - in com.kibernumacademy.devops.controllers.StudentControllerTest
+[INFO] Running com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Running com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.303 s - in com.kibernumacademy.devops.services.StudentServiceImplTest
+2023-07-21 00:48:02.569  INFO 1354 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 00:48:02.570  INFO 1354 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ devops ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/devopsCompleto/target/jacoco.exec
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:11 min
+[INFO] Finished at: 2023-07-21T00:48:32Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.jacoco:jacoco-maven-plugin:0.8.7:report (report) on project devops: An error has occurred in JaCoCo report generation.: Error while creating report: null: EOFException -> [Help 1]
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Kb5bupWZ7s+4L/EQXZ4p8UvHu2SDjdMNgHupZ6aNMlyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

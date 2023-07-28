@@ -1,0 +1,9 @@
+commit 6d8e0d8e94bf10c9bbb5818b4ae0effa5bfb056a
+tree ed37c3303d747ece25fb439f7241352dec173611
+parent 0880f39589ea856bdf6ee89222c3bfba504f36f0
+author Keber Flores <keberflores@gmail.com> 2023-07-27 16:19:47 -0400
+committer GitHub <noreply@github.com> 2023-07-27 16:19:47 -0400
+
+    Update Jenkinsfile: Deploy App stage added
+
+:100644 100644 dc2d7208422f08b8484da03a29275affb9e6f0f3 aecc798eab57c189c4650bd0a7228f218235ba34 M	Jenkinsfile

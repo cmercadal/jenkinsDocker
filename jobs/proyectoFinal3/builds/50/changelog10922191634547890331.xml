@@ -1,0 +1,9 @@
+commit 0880f39589ea856bdf6ee89222c3bfba504f36f0
+tree c4a2901366ba0c1b31695c6dff74ef2237d29ffd
+parent c87a2128a184ffe89a48128482a0d4a70d01fc57
+author Keber Flores <keberflores@gmail.com> 2023-07-27 15:16:33 -0400
+committer GitHub <noreply@github.com> 2023-07-27 15:16:33 -0400
+
+    Fix weird behavior related to permissions of jar file and user running it inside Docker.
+
+:100644 100644 d56b047b01fe220ad86f1dec844a082d3e0e1ce0 dc2d7208422f08b8484da03a29275affb9e6f0f3 M	Jenkinsfile

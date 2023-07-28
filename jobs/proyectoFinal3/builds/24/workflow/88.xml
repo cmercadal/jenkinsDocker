@@ -1,0 +1,101 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3705.va_6a_c2775a_c17">
+    <parentIds>
+      <string>87</string>
+    </parentIds>
+    <id>88</id>
+    <descriptorId>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3705.va_6a_c2775a_c17">
+      <arguments>
+        <entry>
+          <string>nexusVersion</string>
+          <string>nexus3</string>
+        </entry>
+        <entry>
+          <string>protocol</string>
+          <string>http</string>
+        </entry>
+        <entry>
+          <string>nexusUrl</string>
+          <string>nexus.devops-elgrupo.keberlabs.com</string>
+        </entry>
+        <entry>
+          <string>groupId</string>
+          <string>QA</string>
+        </entry>
+        <entry>
+          <string>credentialsId</string>
+          <string>nexus_admin</string>
+        </entry>
+        <entry>
+          <string>repository</string>
+          <string>proyecto-devops</string>
+        </entry>
+        <entry>
+          <string>version</string>
+          <string>24-null</string>
+        </entry>
+        <entry>
+          <string>artifacts</string>
+          <list>
+            <linked-hash-map>
+              <entry>
+                <string>artifactId</string>
+                <string>devops</string>
+              </entry>
+              <entry>
+                <string>classifier</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>file</string>
+                <string>target/devops-0.0.1-SNAPSHOT.jar</string>
+              </entry>
+              <entry>
+                <string>type</string>
+                <string>jar</string>
+              </entry>
+            </linked-hash-map>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <startTime>1690335680640</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.ErrorAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <error class="java.io.IOException">
+        <detailMessage>devops-0.0.1-SNAPSHOT.jar file doesn&apos;t exist</detailMessage>
+        <stackTrace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution$1.call(NexusArtifactUploaderStep.java:266)</trace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution$1.call(NexusArtifactUploaderStep.java:255)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1286)</trace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution.run(NexusArtifactUploaderStep.java:255)</trace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution.run(NexusArtifactUploaderStep.java:216)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>hudson.security.ACL.impersonate2(ACL.java:451)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:463)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <wf.a.ErrorAction_-ErrorId>
+            <stackTrace/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>3816a883-d5bc-4e81-9619-af0e9492a087</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

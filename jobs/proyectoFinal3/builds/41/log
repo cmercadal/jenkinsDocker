@@ -1,0 +1,668 @@
+Started by user [8mha:////4P6DN5/ptVItoZ4OD4ihaxoC7SB6SFdPlrS5lyDT9tW/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git git@github.com:keber/ProjectDevops.git
+[8mha:////4Bdti9mZvlzbEV+jZuJ60/F4/AcN9zs2YmrLincfmoavAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LDIHASoGj0Ihzamx6TjE33Nbrb4eTEqedfXg5a/+o1JAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GdOTMCV9OI317RLX7y0iP3ao1oxRrAOTW4l1QJtI5EbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/proyectoFinal3
+[8mha:////4PfHoXbjFQnjWFHuW0fO5lP5OvetsW5VLk0qvJy77NipAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4L+MXf4rUo/wzJQGWl11q4MfbNEBvaMCI2U2muDXrry+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4ExC6zxnjw3So9Jxc79VJg4QhUqJQQsZyV1SlSAZNxFLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4JT3Rl7m1vgywJExSEwVERowFBy/gqP7q/Tg7hFX8JiJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-keber
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/proyectoFinal3/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:keber/ProjectDevops.git # timeout=10
+Fetching upstream changes from git@github.com:keber/ProjectDevops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials github-keber
+Verifying host key using known hosts file
+[8mha:////4IIlnQrC5KgvlsOq5Qd0DPgPctpHbD/paICoxpzsXlGLAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- git@github.com:keber/ProjectDevops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e # timeout=10
+Commit message: "Update Jenkinsfile - slack notifications added on stages, push docker image stage added"
+ > git rev-list --no-walk f130e2d5593d86839ec0f539509ef3d3292088c0 # timeout=10
+[8mha:////4Aq64PiKVf6C+eFYfTH7meOPn9AqESuszyZRwtjlt6WwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4FcY+UdW8y7tL8sexzc/nkiFcJuMbVS5jl4yvtJyZKl5AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KeLTNM6ruhLcVI45pVAMr4Ls2A3FS7y91BKeD2iHzgnAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FXHZ/hNnwrRs61TwbpyYmCret5Q/HYnoq/1BggpNLzxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4BWBfFoVVRwe5YGGohrwkYMQta3jlIp9lADpwRivR0Q+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4Cx9In/a8bNPJkQGurclfxc9AocT6lvjeViGHRNJct1pAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4F9mSTeAOJ1sw2mN6J+VOy8WEUzogab7oYY3Cg80blC2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4ILpxaq74QPZwlF7qmzu4H7qeECmTxjl75/pw/ABrlCOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4HbIk3LyYXkYAgXf4E1EHzpo0hy99uNEAOkkVrT4jdLxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] tool
+[8mha:////4I5YYDTEVHY1ODPIjCHHp2SPXVocqGYbAhnVxFAt1BUlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GmlHJPihGVolJwDHaXchhrGTLihomnn4HRpxabcbxrDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q08zss7vgAAAA==[0m[Pipeline] tool
+[8mha:////4IqrnLQeUM8+3T9TPsGAKTN4bdCE2QdKVHdBT4w2pso6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9/9AivgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4B7Ab9iatCsPWOIPllFlwH9iXprluu5gNbaZAt9F5P3FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] }
+[8mha:////4P4iM30S6i/8qJ9qMNNxVlNfDNwPMuK1vqs1kIlQZ+iKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPpiqM+u+AAAA[0m[Pipeline] // stage
+[8mha:////4Pb/cOgBtcGLoZlmpbghuESdTbbnrllVWNuHYabRhRzBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlBExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnK3z9Y0n2f1BjOvLvLCAAAA[0m[Pipeline] withEnv
+[8mha:////4OdnmqHqECtlBco4NUJb6JpGFqJwTIDergFhLhY+w1XzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4HyIGYXtIXMUt1ZH9LCYsLgiGQy2QFyJBTqeCEznxvT4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] stage
+[8mha:////4LPH+6yiNl9O2nUDmWtis9jpnLSjV3IKmXcheIS4au3vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Hello)
+[8mha:////4O0W6rBUlGmRURLth3zrZpauD5gd3SCNbSbrxN3FOwsDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] tool
+[8mha:////4BtZoVfmKuGZjyofRu6gMY0wOr/2ffCK6vDgy5DuRnlBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4N5gcmPyEMTPqngepOgjZLzKQGNrSg8ZjSSW+qYVnsHoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] tool
+[8mha:////4KJNxxDcd/SFAjiFn8L/1IotJxEUbGTFXujnsPqnzawjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3HRhmuvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4K0Hfv4IiXIIHdSU6XAUvYG6KsK5ugl8hVWZ44n1kq4PAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUgZhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQE/HbqGwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4EOo1KpZPQR6v7NpLp2NMUJa0YNAoqqaXMQMWTgsiupSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4F6SUqGqucx4jWKCo+tmmq2kKf0n7IJYw+10IWTqwBL+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] echo
+DB Engine is: sqlite
+[8mha:////4GqDjqjoj4FHz9jHwofjFuMa9wYozMz/44UMiJLdcG22AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f9+DRbb4AAAA=[0m[Pipeline] echo
+DISABLE_AUTH is: true
+[8mha:////4GlT6JQdI+0+K9ssP4b8QwRm6bHWWIPWWnCejUGkSzL2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBjB2kCK+AAAA[0m[Pipeline] echo
+Build 41 on https://jenkins.devops-elgrupo.keberlabs.com/
+[8mha:////4OP5m9XSa6H1zwVIsiq2v3vz82X5JFRzF2TKsXqGD9fiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN3FHizu+AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: devopselgrupo, channel: #proyecto-final, color: good, botUser: false, tokenCredentialId: slack, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4EsJQm3URY4ibT08mgLkiTRddhiscrG6RjThBraKABNUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGZBx0SvgAAAA==[0m[Pipeline] }
+[8mha:////4GMlYpjcc6dxDN5pxO3AyJKm/4XNGCD3Xwy3cCTQacXsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGq5EauvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4DM1HS8W4U7afpOkO7B8tyipHVtyoFA1kSxmrY2GgZEfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DsZNhNr4AAAA=[0m[Pipeline] }
+[8mha:////4Pr8LQ4eKBeZghF36qmAR4NfTnnNIvVup2kTixRBylK4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+CcDqKvgAAAA==[0m[Pipeline] // stage
+[8mha:////4G2+eY5TDy6jUYnLNkKk/HrFAUe19IyIkVc8inT22zuqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUARvqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2l22/+TyrN/LpqKvCAAAA[0m[Pipeline] stage
+[8mha:////4ALcBNzSGMzz7jSjFEaS0YjG31DfLCWVCnXZyAlKbtoHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Git polling)
+[8mha:////4HIz6neZxs9MEPtztCgjjbF7fvQkqPuv/pDpWju6zuRdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] tool
+[8mha:////4Lzih7KNV1ellb5ETEIzVDcxobJ1ZAPnGq38SIeVcxiVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBmv/W2K+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4A4cXRfrj9kl6itYre8IuCsNuTkv8PxfdSDPQhR11dgHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipHSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BqxpGi2+AAAA[0m[Pipeline] tool
+[8mha:////4FGRvpHq93M5gajs1KuXkFjhZxNaDpsGiqopyvO2urjSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+1YATS+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4O+KvVQ6sD5FSQIolwiT3glVVs5HsTXDfb5lF1SY6cr7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLk+91sh/lZfADOFqDKwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4J2ybLcAs+hPbmofifCG1qhmjJj4kyvIeCkEeqde7DimAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4OD8lKMhU62OD371w4WWqKFasWhuKYwEGvx9Hpw1PeSKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-keber
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/proyectoFinal3/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:keber/ProjectDevops.git # timeout=10
+Fetching upstream changes from git@github.com:keber/ProjectDevops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials github-keber
+Verifying host key using known hosts file
+[8mha:////4IIlnQrC5KgvlsOq5Qd0DPgPctpHbD/paICoxpzsXlGLAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- git@github.com:keber/ProjectDevops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main aa7e2f1c23b0f25e44092c77be9637fbcbd0c53e # timeout=10
+Commit message: "Update Jenkinsfile - slack notifications added on stages, push docker image stage added"
+[8mha:////4InycYIxtnEXH9gUE2ur08OvCPATaufnJJKI/Q39FP9rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4D3eLTbWIjXJ4jZNmpoEl0mkt47phG0/tPx6zZ3cS197AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Cbhc3k3TKArZLELF7eS8bH5OFSX6sCtkAf0Bd/vR4GFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHclIkjvgAAAA==[0m[Pipeline] }
+[8mha:////4PfgMQztjF+p9NFPdJVHAMPt56cb0chS8EpW/MNdYxpZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wHk1hrSvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ByPIplFx0kAD5KtlB9ljMggd5eXBEba1Wt7PN/fFamuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUomJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQHokEuLwgAAAA==[0m[Pipeline] stage
+[8mha:////4Gwl9+vslMAv5yQB/Ha8nYCDpU4LQ9gtXCgLG20T5002AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Build con maven)
+[8mha:////4FYHjcBp+yVNvQ2mpkftADm1KyOkIOUGATjHnJ1mNmvFAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] tool
+[8mha:////4Mbnhn+vF/RK/EJHVqW/j6nHOIqvScRKA6nCtc651iHxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBiBOfIC+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4LNjOLKdYZeXyRWCyhPtu6fVyOk9CHt0Ddo10vF2rpnEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN2F/Z5m+AAAA[0m[Pipeline] tool
+[8mha:////4Mb75w882a5DYOipbZRYfqyGW0/2Dd6owT3e5HzvVnD/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAGuY/8evgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OSqwWAe0y+BOgNN0shCbBFDek6bn+h2i0ymosbUu9PHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD4JPc3fCAAAA[0m[Pipeline] withEnv
+[8mha:////4GZ/Tvemij7qAL3AJsP8iF8x9cMbgAYZbY0Lh+FUtdRvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] {
+[8mha:////4ATpp7TkjVj0ztQYt7/5UY2YOaCuCpIgmKoQNC9IhMcjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBk5Fu7e+AAAA[0m[Pipeline] sh
++ mvn -Dmaven.test.failure.ignore=true clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.kibernumacademy:devops >---------------------
+[INFO] Building devops 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ devops ---
+[INFO] Deleting /var/jenkins_home/workspace/proyectoFinal3/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ devops ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /var/jenkins_home/workspace/proyectoFinal3/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ devops ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/proyectoFinal3/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/proyectoFinal3/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ devops ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.526 s - in com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Running com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Running com.kibernumacademy.devops.DevopsApplicationTests
+22:45:08.709 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [DevopsApplicationTests]: using SpringBootContextLoader
+22:45:08.725 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.kibernumacademy.devops.DevopsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:45:08.727 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kibernumacademy.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:45:08.800 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [DevopsApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+22:45:08.965 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/var/jenkins_home/workspace/proyectoFinal3/target/classes/com/kibernumacademy/devops/DevopsApplication.class]
+22:45:08.970 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kibernumacademy.devops.DevopsApplication for test class com.kibernumacademy.devops.DevopsApplicationTests
+22:45:09.251 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [DevopsApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+22:45:09.255 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [DevopsApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-07-26T22:45:09.973Z  INFO 8437 --- [           main] c.k.devops.DevopsApplicationTests        : Starting DevopsApplicationTests using Java 17.0.7 with PID 8437 (started by root in /var/jenkins_home/workspace/proyectoFinal3)
+2023-07-26T22:45:09.986Z  INFO 8437 --- [           main] c.k.devops.DevopsApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-26T22:45:11.910Z  INFO 8437 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-26T22:45:12.046Z  INFO 8437 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interfaces.
+2023-07-26T22:45:13.320Z  INFO 8437 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-26T22:45:13.881Z  INFO 8437 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6c2028fb-36f1-4f88-9702-f410ce24911a user=SA
+2023-07-26T22:45:13.884Z  INFO 8437 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-26T22:45:14.011Z  INFO 8437 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-26T22:45:14.160Z  INFO 8437 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-26T22:45:14.646Z  INFO 8437 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-26T22:45:15.974Z  INFO 8437 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-26T22:45:15.999Z  INFO 8437 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:45:17.092Z  WARN 8437 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-26T22:45:18.214Z  INFO 8437 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:6c2028fb-36f1-4f88-9702-f410ce24911a'
+2023-07-26T22:45:18.762Z  INFO 8437 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d7fba20, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@112b3298, org.springframework.security.web.context.SecurityContextHolderFilter@5b160208, org.springframework.security.web.header.HeaderWriterFilter@2faae7f6, org.springframework.security.web.csrf.CsrfFilter@395115ac, org.springframework.security.web.authentication.logout.LogoutFilter@6dadcf58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@789f5552, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59700156, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51d2d336, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b44e98e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a15261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3cf7433e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@90c01ab, org.springframework.security.web.access.ExceptionTranslationFilter@61c0fb12, org.springframework.security.web.access.intercept.AuthorizationFilter@70d16858]
+2023-07-26T22:45:18.930Z  INFO 8437 --- [           main] c.k.devops.DevopsApplicationTests        : Started DevopsApplicationTests in 9.586 seconds (process running for 13.511)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.926 s - in com.kibernumacademy.devops.DevopsApplicationTests
+2023-07-26T22:45:19.200Z  INFO 8437 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:45:19.202Z  INFO 8437 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-26T22:45:19.208Z  INFO 8437 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-26T22:45:19.218Z  INFO 8437 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ devops ---
+[INFO] Building jar: /var/jenkins_home/workspace/proyectoFinal3/target/simple-springmvc-docker.jar
+[INFO] 
+[INFO] --- spring-boot:3.0.6:repackage (repackage) @ devops ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.407 s
+[INFO] Finished at: 2023-07-26T22:45:22Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DMIKD1cI2xgkQHM+tFvg4s6zujHeEpwGz6SjXfv4JA3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/uuxNG+AAAA[0m[Pipeline] }
+[8mha:////4I4h1ttrIq+j05AsZ3neSfapc1sa31tHABuHSgEXHa5iAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAOZZpSL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MrdBkdW9y5mGsuNRA1COES5Yrnz5uDjAT58Ue5vJ6+zAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPzza3Su+AAAA[0m[Pipeline] }
+[8mha:////4PL0vwDH0Nw0grJe2xYE7k0dFq+HpHXQznKiwe9600aEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpUGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wE6nOV+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4ISxVu75UAUaDJT+KHC1vAdd5rKiI7fGx9f2zN8fojg1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAqkLYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g3GG27qwgAAAA==[0m[Pipeline] stage
+[8mha:////4PMjay25Yrv2CvVwSG3qMSqgtmazAfaIsdV3F0KbbYnpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] { (test maven)
+[8mha:////4ACTQ/7MQON6Xi/m2XvbxWoyAtmHaEEhjC9q1w+2sBGIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] tool
+[8mha:////4Jrc/S+a3K1MDArzuy7g0MlbGJMQM2Y9Qt2hE0mTrTu3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBsjxxbq+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4NjO0eVxNqPpCtHd1prWm9U1ciRIh1RXr1kt9NYy5On2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP7YgxWq+AAAA[0m[Pipeline] tool
+[8mha:////4L/TKYSj0cZ8oF3H4IpnbR8mz7XMoEYny/uSzY4cmlFhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QXmoc9V7/wH3Ed5zvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OQA0ZixZpJG89/xsyO4u8ZLlkmc2ZAzwv9AEFWr9isCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYqADYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlvsnW7D7P6g2ZGldkwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PxiKjOwlfIv5KzXXinY/yqWXXRh7s7a04Gnx8tef0YRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4Eu2scqGdDmuxg/LspmZ8R5QbztcUcA2+wdQAGq7StRgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.kibernumacademy:devops >---------------------
+[INFO] Building devops 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ devops ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ devops ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ devops ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/proyectoFinal3/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ devops ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ devops ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.205 s - in com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Running com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Running com.kibernumacademy.devops.DevopsApplicationTests
+22:45:33.249 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [DevopsApplicationTests]: using SpringBootContextLoader
+22:45:33.259 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.kibernumacademy.devops.DevopsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:45:33.260 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kibernumacademy.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:45:33.305 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [DevopsApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+22:45:33.450 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/var/jenkins_home/workspace/proyectoFinal3/target/classes/com/kibernumacademy/devops/DevopsApplication.class]
+22:45:33.454 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kibernumacademy.devops.DevopsApplication for test class com.kibernumacademy.devops.DevopsApplicationTests
+22:45:33.640 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [DevopsApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+22:45:33.642 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [DevopsApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-07-26T22:45:34.194Z  INFO 8579 --- [           main] c.k.devops.DevopsApplicationTests        : Starting DevopsApplicationTests using Java 17.0.7 with PID 8579 (started by root in /var/jenkins_home/workspace/proyectoFinal3)
+2023-07-26T22:45:34.199Z  INFO 8579 --- [           main] c.k.devops.DevopsApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-26T22:45:35.671Z  INFO 8579 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-26T22:45:35.761Z  INFO 8579 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2023-07-26T22:45:36.771Z  INFO 8579 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-26T22:45:37.213Z  INFO 8579 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d2eb0c56-91c6-4998-b934-cbfdc377fab0 user=SA
+2023-07-26T22:45:37.218Z  INFO 8579 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-26T22:45:37.318Z  INFO 8579 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-26T22:45:37.418Z  INFO 8579 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-26T22:45:37.736Z  INFO 8579 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-26T22:45:38.832Z  INFO 8579 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-26T22:45:38.848Z  INFO 8579 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:45:39.614Z  WARN 8579 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-26T22:45:40.541Z  INFO 8579 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d2eb0c56-91c6-4998-b934-cbfdc377fab0'
+2023-07-26T22:45:41.133Z  INFO 8579 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d7fba20, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@112b3298, org.springframework.security.web.context.SecurityContextHolderFilter@5b160208, org.springframework.security.web.header.HeaderWriterFilter@2faae7f6, org.springframework.security.web.csrf.CsrfFilter@395115ac, org.springframework.security.web.authentication.logout.LogoutFilter@6dadcf58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@789f5552, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59700156, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51d2d336, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b44e98e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a15261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3cf7433e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@90c01ab, org.springframework.security.web.access.ExceptionTranslationFilter@61c0fb12, org.springframework.security.web.access.intercept.AuthorizationFilter@70d16858]
+2023-07-26T22:45:41.258Z  INFO 8579 --- [           main] c.k.devops.DevopsApplicationTests        : Started DevopsApplicationTests in 7.557 seconds (process running for 10.714)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.638 s - in com.kibernumacademy.devops.DevopsApplicationTests
+2023-07-26T22:45:41.530Z  INFO 8579 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:45:41.534Z  INFO 8579 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-26T22:45:41.546Z  INFO 8579 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-26T22:45:41.556Z  INFO 8579 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.597 s
+[INFO] Finished at: 2023-07-26T22:45:41Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4HbijXUFnmj5/0YMNmXdAX8/1azrYBXDAwdM7Qc9ZoJiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF+8FcvvgAAAA==[0m[Pipeline] echo
+Archivar artefactos
+[8mha:////4KB9IQ1OzuGV1NObsBt+e2ywJvTJ6es/1zkg9/YISIRFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAG9o3oEvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4CecBDAl8LA+ZKrOjaYydQsCwPFkUQO/SAF02YIQD4FjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUKRAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7NwdUbKe+AAAA[0m[Pipeline] }
+[8mha:////4BEzPE1PaWNPVDbbCHai0mbPX/APcYDU8m5MmTlxe3SMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFE1j0hvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4H1AFXXIPIFlOF+cx/G7eSENk8OKnNZ2RVfQjT4Pn1qbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpiBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvPy/AEIO+AAAA[0m[Pipeline] }
+[8mha:////4Ml/T93MvwZRfTe7TFDyyCdh2hSJhUnqRV5xeLfT3CFtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhipAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QGY0VAlvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LFRO2Kz3py1mdJ6kEp6l73ROgv/ekjTjChHrz7A276nAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WXbbz7P6g0jUFSnwgAAAA==[0m[Pipeline] stage
+[8mha:////4C07SR0NbF6xPMD1rlxATQzR9sBycLm+vhtBCphGssi6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] { (Sonar Analysis)
+[8mha:////4Nw/I/1YJVVq2OPf1bDWYq1Nj2K8WjKHKMD8v4wO7nmcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHdCQYNvgAAAA==[0m[Pipeline] tool
+[8mha:////4GbOsYf2VkqIBToBv4nyPPHX8UMrZFQ5TyXwEtUd3rlwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q0an0dCvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Gmdwil19tdE3bZLuR9DAuHlFMUi4dWd1Za6baS224nbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHcbz+1C29brlxbvgAAAA==[0m[Pipeline] tool
+[8mha:////4Ba4Du7un7uLnczitb0g/4i8IDOUm/245dRD/RIuzdcKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2Y/XFwvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4LTvxlgSSLQlJ+sjyYl73S/FKIZqfOUl+7cwOq5+M5skAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACfhLRawgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DMQh3jxNn1QbdiOwnsW4tosBbW1jf92E8YtBzUdKiVvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] {
+[8mha:////4G5x9dsmiKsE5q4qCzDm7wCOplJ/2zhZte1fNH3Y4/TqAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxnGsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DGb6ZU74AAAA=[0m[Pipeline] echo
+Sonar Analysis
+[8mha:////4GCsFKcrNsD+aS3qlhdDHPyxaDudDgDz72p9anaaF/emAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUsQgxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgrJpsu13n2f1BhfnaQPCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4Pqv0kz15hAlhWXTI1biY7Wrc0P0wmoZlOcyaYZpKseYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] {
+[8mha:////4PAcmHWO9onhkrttvs4qahFafLV7Uq1S9zW5uYKjtQU4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBqhInei+AAAA[0m[Pipeline] sh
++ mvn clean package sonar:sonar
+[INFO] Scanning for projects...
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.9.1.2184 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] ---------------------< com.kibernumacademy:devops >---------------------
+[INFO] Building devops 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ devops ---
+[INFO] Deleting /var/jenkins_home/workspace/proyectoFinal3/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ devops ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /var/jenkins_home/workspace/proyectoFinal3/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ devops ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/proyectoFinal3/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ devops ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/proyectoFinal3/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ devops ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.117 s - in com.kibernumacademy.devops.services.StudentServiceImplTest
+[INFO] Running com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.kibernumacademy.devops.entitys.StudentTest
+[INFO] Running com.kibernumacademy.devops.DevopsApplicationTests
+22:45:56.057 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [DevopsApplicationTests]: using SpringBootContextLoader
+22:45:56.068 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.kibernumacademy.devops.DevopsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:45:56.070 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kibernumacademy.devops.DevopsApplicationTests]: DevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:45:56.132 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [DevopsApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+22:45:56.275 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/var/jenkins_home/workspace/proyectoFinal3/target/classes/com/kibernumacademy/devops/DevopsApplication.class]
+22:45:56.278 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kibernumacademy.devops.DevopsApplication for test class com.kibernumacademy.devops.DevopsApplicationTests
+22:45:56.465 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [DevopsApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+22:45:56.467 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [DevopsApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-07-26T22:45:57.098Z  INFO 8707 --- [           main] c.k.devops.DevopsApplicationTests        : Starting DevopsApplicationTests using Java 17.0.7 with PID 8707 (started by root in /var/jenkins_home/workspace/proyectoFinal3)
+2023-07-26T22:45:57.102Z  INFO 8707 --- [           main] c.k.devops.DevopsApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-07-26T22:45:58.603Z  INFO 8707 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-26T22:45:58.709Z  INFO 8707 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2023-07-26T22:45:59.806Z  INFO 8707 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-26T22:46:00.167Z  INFO 8707 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e13803ad-cf09-441f-b5d4-fd4705ff65a5 user=SA
+2023-07-26T22:46:00.170Z  INFO 8707 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-26T22:46:00.276Z  INFO 8707 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-26T22:46:00.408Z  INFO 8707 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-26T22:46:00.764Z  INFO 8707 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-26T22:46:02.041Z  INFO 8707 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-26T22:46:02.057Z  INFO 8707 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:46:02.744Z  WARN 8707 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-26T22:46:03.620Z  INFO 8707 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e13803ad-cf09-441f-b5d4-fd4705ff65a5'
+2023-07-26T22:46:04.066Z  INFO 8707 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20505460, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8eeb4c5, org.springframework.security.web.context.SecurityContextHolderFilter@8aafd70, org.springframework.security.web.header.HeaderWriterFilter@1104ad6a, org.springframework.security.web.csrf.CsrfFilter@293ba26c, org.springframework.security.web.authentication.logout.LogoutFilter@48d24d63, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@467421cc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16a15261, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2dc77962, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28c00acd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ca0b05e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2faae7f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32bae609, org.springframework.security.web.access.ExceptionTranslationFilter@3f030217, org.springframework.security.web.access.intercept.AuthorizationFilter@6dadcf58]
+2023-07-26T22:46:04.172Z  INFO 8707 --- [           main] c.k.devops.DevopsApplicationTests        : Started DevopsApplicationTests in 7.618 seconds (process running for 10.786)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.656 s - in com.kibernumacademy.devops.DevopsApplicationTests
+2023-07-26T22:46:04.414Z  INFO 8707 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-26T22:46:04.416Z  INFO 8707 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-07-26T22:46:04.425Z  INFO 8707 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-26T22:46:04.432Z  INFO 8707 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ devops ---
+[INFO] Building jar: /var/jenkins_home/workspace/proyectoFinal3/target/simple-springmvc-docker.jar
+[INFO] 
+[INFO] --- spring-boot:3.0.6:repackage (repackage) @ devops ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] ---------------------< com.kibernumacademy:devops >---------------------
+[INFO] Building devops 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.9.1.2184:sonar (default-cli) @ devops ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 9.9.1.69595
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=380ms
+[INFO] Server id: 147B411E-AYmDW1a2PktLiMdtqWf9
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=184ms
+[INFO] Load/download plugins (done) | time=392ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=21ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=3ms
+[INFO] Project key: com.kibernumacademy:devops
+[INFO] Base dir: /var/jenkins_home/workspace/proyectoFinal3
+[INFO] Working dir: /var/jenkins_home/workspace/proyectoFinal3/target/sonar
+[INFO] Load project settings for component key: 'com.kibernumacademy:devops'
+[INFO] Load project settings for component key: 'com.kibernumacademy:devops' (done) | time=59ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=275ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=4646ms
+[INFO] Load analysis cache
+[INFO] Load analysis cache (315 bytes) | time=36ms
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=34ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 10 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module devops
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=42ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 11
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=17ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=7ms
+[INFO] Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] Using ECJ batch to parse 6 Main java source files with batch size 104 KB.
+[INFO] Starting batch processing.
+[INFO] The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 100% analyzed
+[INFO] Batch processing: Done.
+[INFO] Did not optimize analysis for any files, performed a full analysis for all 6 files.
+[INFO] Using ECJ batch to parse 3 Test java source files with batch size 104 KB.
+[INFO] Starting batch processing.
+[INFO] 100% analyzed
+[INFO] Batch processing: Done.
+[INFO] Did not optimize analysis for any files, performed a full analysis for all 3 files.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=3297ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=5ms
+[INFO] Sensor CSS Rules [javascript]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [javascript] (done) | time=1ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=1ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=34ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/proyectoFinal3/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=150ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=6ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source file to be analyzed
+[INFO] 1/1 source file has been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=401ms
+[INFO] Sensor TextAndSecretsSensor [text]
+[INFO] 10 source files to be analyzed
+[INFO] 10/10 source files have been analyzed
+[INFO] Sensor TextAndSecretsSensor [text] (done) | time=60ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=2ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=44ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[INFO] Sensor IaC Docker Sensor [iac]
+[INFO] 0 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor IaC Docker Sensor [iac] (done) | time=164ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Analysis Warnings import [csharp]
+[INFO] Sensor Analysis Warnings import [csharp] (done) | time=3ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=24ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=45ms
+[INFO] CPD Executor 2 files had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 4 files
+[INFO] CPD Executor CPD calculation finished (done) | time=17ms
+[INFO] Analysis report generated in 181ms, dir size=156.0 kB
+[INFO] Analysis report compressed in 153ms, zip size=37.3 kB
+[INFO] Analysis report uploaded in 95ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonar.devops-elgrupo.keberlabs.com/dashboard?id=com.kibernumacademy%3Adevops
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonar.devops-elgrupo.keberlabs.com/api/ce/task?id=AYmUYdJLakr55e3npFKR
+[INFO] Analysis total time: 15.824 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.771 s
+[INFO] Finished at: 2023-07-26T22:46:26Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4JdPh1onZOboqRJh4tOfOnrKWAuHoArJNQnNYGOXkcnuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN+4hTxy+AAAA[0m[Pipeline] }
+[8mha:////4NU6XHiOAuUk8nN591FED3kgyvaaZLpzRbBkz8wxWmM0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN8AhTXa+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4JZDHz/SvZLxqe3nfyNDAU+rA72mp5q7dW1nk2I1Lp2LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkIIQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QEWS9GqvgAAAA==[0m[Pipeline] }
+[8mha:////4OcfRMmM6Kk3n4GplK+lEsAIq/9ooJvbOJWX4Q2EOOPBAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8RFKRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wEpJPq8vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L5fHyALh4RmyEFgBacneqzzSUosdFDQq9ABC36tUqGzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0QBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w8DA8wHvgAAAA==[0m[Pipeline] }
+[8mha:////4PP0N6hvUEOKG3REi0jUWw0QV9gi3JqAGoTFBn189nV3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRXRCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP2zgk2++AAAA[0m[Pipeline] // stage
+[8mha:////4P55cIBpU3tb5SclvtFYeGmUpZpBh3sqWsjyoqjVPt5dAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgqlCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQH62XDtwgAAAA==[0m[Pipeline] stage
+[8mha:////4EdPKbT/lZHVJlgagtq7ytldXCOoNCAfRBQd/SoWixRtAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LgSIwTa8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpFXFkO3L8nPN3zgbWwvDAAAA[0m[Pipeline] { (Upload Artifact)
+[8mha:////4Oe/3zbg5r/oW6AOaDcY7XwluFAud7x0+oPGoih13q5rAAAAox+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdqxsMzSeIIYYA5ndkCxC5Ym8mneQgRkrf/Hnv9+89wd2KcKZohWdwd5h0k4EP9pliYlif/c0iY5uQhMm8kY0ZmqoNZcNG2IDW7IcCgl7g9pTcmgZDrJTT1V6hba8cly+k4TctQO8IJOLmVXkFeYIx8fYJsKf568A5sBQ1FW1dh2+9eP8fcAAAAA=[0m[Pipeline] tool
+[8mha:////4IwKw0TXUfKi2zXM0KxkWu7yW4/K2uK9j5B/cSM6/8PNAAAApB+LCAAAAAAAAP9tjTESgjAURD8wFraWHiKgrWNFm6HxBJHEmJD5PyZBqDyRV/MOZmDGyi129m3z3h/YxABnCppZhYPB2Bvm3ajzYhOF4eZoYpaurCeM5BTr1NSRVO2KHSUFa4oSKg5bhb2jaFAn2HErnqJ2AnV9SSF/Jw6lkQ94QcGzOYmQFpgD7O+jjIQ/z18BzD5BdWiapY/+Czaw0VbAAAAA[0m[Pipeline] envVarsForTool
+[8mha:////4N+36gLrmWhLQlFxNAhU9gF7qFPsh3BTZjFtZfCRz0qCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTRImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOwTVIemWfrov3eByk/AAAAA[0m[Pipeline] tool
+[8mha:////4GNmct/DIstTYTyCrGS+ulopzy58qR199qeNEqsXpH18AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTJDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoDo0zdJH/wWwF4sAwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4KL6Ho2/taCPJVWFaMCNlPb6mTJf8T3IGc0OX0HcYz+WAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkTBwck4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDs63rxw/dbfgAzLhElxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4G8KBCT+YmWRWNIcGy5y+v4UCRFO+9hjUrcYic8PneC9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] {
+[8mha:////4FElHRS75iiaKfDb7bctplwPMr3jEajEnjh2qB/wimIDAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEGy2cVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO13h7mP/Rf0TcntwAAAAA==[0m[Pipeline] nexusArtifactUploader
+Uploading artifact simple-springmvc-docker.jar started....
+GroupId: QA
+ArtifactId: targetApp
+Classifier: 
+Type: jar
+Version: 41
+File: simple-springmvc-docker.jar
+Repository:proyecto-devops
+Uploading: http://nexus.devops-elgrupo.keberlabs.com/repository/proyecto-devops/QA/targetApp/41/targetApp-41.jar
+10 % completed (5.4 MB / 49 MB).
+20 % completed (10 MB / 49 MB).
+30 % completed (15 MB / 49 MB).
+40 % completed (20 MB / 49 MB).
+50 % completed (25 MB / 49 MB).
+60 % completed (30 MB / 49 MB).
+70 % completed (35 MB / 49 MB).
+80 % completed (40 MB / 49 MB).
+90 % completed (45 MB / 49 MB).
+100 % completed (49 MB / 49 MB).
+110 % completed (55 MB / 49 MB).
+120 % completed (60 MB / 49 MB).
+130 % completed (65 MB / 49 MB).
+140 % completed (69 MB / 49 MB).
+150 % completed (74 MB / 49 MB).
+160 % completed (79 MB / 49 MB).
+170 % completed (84 MB / 49 MB).
+180 % completed (89 MB / 49 MB).
+190 % completed (94 MB / 49 MB).
+200 % completed (99 MB / 49 MB).
+Uploaded: http://nexus.devops-elgrupo.keberlabs.com/repository/proyecto-devops/QA/targetApp/41/targetApp-41.jar (99 MB at 11 MB/s)
+Uploading artifact simple-springmvc-docker.jar completed.
+Post stage
+[8mha:////4BXAh4W9O1X0EoRs1h+RaxTtKJA5/zy+axqP7A5kyHTuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDUJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8BO1FRasAAAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: devopselgrupo, channel: #proyecto-final, color: good, botUser: false, tokenCredentialId: slack, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4IrKkYT+IU+qmSg9aIV+d5wdkRrpBfS5cHTKutzx+rCQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDRJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwB6L0dV8AAAAA=[0m[Pipeline] }
+[8mha:////4D6OuSSxxv7eGZ3n4Nyo1tZ2lHq296SbePMLC57BifQrAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsHKsbDM0niCSGAOZXUwWofJEXs07GGXGyl/8+e837/mCVQxwoGBFZ7B3GFsnBj/atMREob94mkRHZ9ESRvJGNGZqSJvjgg2xgSVZDoWEtcHWU3RoGTayU3dVeoW2PHFI315C7vQNHpDJZGYV+AtzgO111JHw5/krgHkYGIq6rj5d7d4fqSaXwAAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JkIVB4TmzmxMiSS2j+lCfzcIaC+8okcrhFReTCWHjayAAAApB+LCAAAAAAAAP9tjTESgjAURD8wFraWHiJA7VjZZmg8QUxiTMj8H5IgVJ7Iq3kHUWas3GJn3zbv+YJNinCkaJjT2FtM0rLgR7MsNlHsr54m5ujCJGEir1mnp46UPq3YUdawpiih4rDVKD0liybDjjtxF7UXaOpzjst34FBaNcADCr6Ys4j5C3OE/W1UifDn+SuAOYQMVdu2n26aNyRWO0HAAAAA[0m[Pipeline] }
+[8mha:////4AneJNpnvLDl0F0QmdwTUt+bhwlHHdbrc9F94xNMq7M1AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGO8axos3QeIKYxBjI7GKyCJUn8mreQUZmrPzVf695rzdsUoQTRSc6i73HpL0YwuiWJyaK/TXQJDq6CE2YKFjR2qklY5sVW2IL67IcCglbizpQ8ugYdrJTD1UGha48c1zcUULuzR2ekMmlzCryF+YI+9toEuGv8zcA8zAwFFV1YMjr+gOIHhUGvwAAAA==[0m[Pipeline] // stage
+[8mha:////4ILGEr4TM4c+frbmCp4ytVRgKeu7KYH5MLhL2T3mhR1zAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6IEGY0Ta8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpPuKISvL6nPN3+A1RibDAAAA[0m[Pipeline] stage
+[8mha:////4MBuHYI4X14NqL2bkFo5csqjpCNcDQY8LClV0gt0q2w4AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJ0c04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgBX/TLixAAAAA==[0m[Pipeline] { (Build Docker Image)
+[8mha:////4P/5HHPrK9eVVIKF7IOJNmufodiPwjKTf2fTq4phr4lgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i9/VmOLwAAAAA==[0m[Pipeline] tool
+[8mha:////4Jwn626uj6/GwdxlxoWgSzXkO+iFcSIMVA1NsRBwNhrBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSIgGUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZJ6ia5rD00X8BvAVOoMAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4A+yh5KfM4kzP5i8R7FYObFBkTh/CmnaHAO+XFQ/L69/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSEgUiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHMPkHVNIelj/4L/TRVucAAAAA=[0m[Pipeline] tool
+[8mha:////4CS3wKzLmkBgOZsVV/1HPBT9QHs/jr7HjiRzWwtHtrRQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSBRIiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHMPkHVNIelj/4LMijNPsAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4I6I93baCqyNoYgRAyA+CYlS9gstF3rjQFvIX1gmjYU1AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiYsxTqwNi09QS62F5v+xLZbJJ/LVfAcrJE7ecLm75PK93lB6BydymvUKB4NeGjbaSafEIrnhaimyni5MEnqyirUqttSpZq0tBQWrshwKDhuF0pI3qANseS8eorICdXUOLm1HDrnp7vCEjCdyEC4sZXawu02dJ/xx/gJgHgMUdb1f/PD9lh8GBzQqxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4IE/MLLJdfQ6/TQotgPJ74vbUzEnP4pfHm1cwgUyYXm2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUOIiTXqwglCG0LS6P+SpKQTJ+Jq3IGUSkx4sGxL1nu9ofQOjuQUMxJ7jb7VbLCjSolFcv3VUmSGLqwl9GQla2RsqJOnpTYUJCzKcig4rCS2lrxGFWDNjXiIygpU1Tm4tB045Lq7wxMynshBuPAtk4PNbew84Y/zFwDTEKCo6/3su+38LT+9TXyixAAAAA==[0m[Pipeline] {
+[8mha:////4GaiM5WJbs3UqS6ISklcD8wWBKcgyXQfRpVn8BGruBzjAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFEf9ovX32/5AUfIQ0nEAAAA[0m[Pipeline] script
+[8mha:////4LYRf/2ECAR3u3ll2VqIB/J+l4+lRpvLYeavF7k3lz6sAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqJu6tWb77f8AIb2clTEAAAA[0m[Pipeline] {
+[8mha:////4OwfCM2932u+XIfEPuz7Wk/zeB0sQ/MutT2ZDDZe1BHWAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GMWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9guJQHZeuvkBDE4TAAAAA[0m[Pipeline] }
+[8mha:////4Bi+FfTppTjQmHsux7xkVoRpvE0R2Id0PEEkVrBaXPQ3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1TN4bh08wV0LL3YwAAAAA==[0m[Pipeline] // script
+[8mha:////4E6Y481usGbHhIEA5OIbu7fvJZPj851WAN1VVRMnc/GpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNofdnMf+y8Z2uI0wAAAAA==[0m[Pipeline] writeFile
+[8mha:////4L1audk0Y2TtdOJw22F3UBgAPFScCVm8tQi3VQty/cQwAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBELWycVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO0Pu7mP/Rfaic8fwAAAAA==[0m[Pipeline] sh
++ docker build -t keberflores/examenfinal .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 555B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/openjdk:17-jdk-slim-bullseye
+#3 DONE 1.1s
+
+#4 [1/3] FROM docker.io/library/openjdk:17-jdk-slim-bullseye@sha256:aaa3b3cb27e3e520b8f116863d0580c438ed55ecfa0bc126b41f68c3f62f9774
+#4 DONE 0.0s
+
+#5 [2/3] RUN addgroup -system devopsc && useradd -G devopsc javams
+#5 CACHED
+
+#6 https://nexus.devops-elgrupo.keberlabs.com/repository/proyecto-devops/QA/targetApp/41/targetApp-41.jar
+#6 DONE 1.3s
+
+#6 https://nexus.devops-elgrupo.keberlabs.com/repository/proyecto-devops/QA/targetApp/41/targetApp-41.jar
+#6 DONE 1.3s
+
+#7 [3/3] ADD https://nexus.devops-elgrupo.keberlabs.com/repository/proyecto-devops/QA/targetApp/41/targetApp-41.jar app.jar
+#7 DONE 0.2s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.5s done
+#8 writing image sha256:14c59570de0f429a559462fbdf63fcb5a0f0efa72d9ce74b26ffd8018c519ab0 done
+#8 naming to docker.io/keberflores/examenfinal done
+#8 DONE 0.5s
+Post stage
+[8mha:////4AxofJj1A1eVbLIlN3H0LOekGKG+GtmcvmIC/SrSg2f+AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEbSycVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO0Pu7mP/RebuNQGwAAAAA==[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: devopselgrupo, channel: #proyecto-final, color: good, botUser: false, tokenCredentialId: slack, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4DhY3fUTY+39sKZdymqlB5JbuCoZWt9zbiAIYxAMtYjdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDVEgoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2h+Pcuy+WdhpowAAAAA==[0m[Pipeline] }
+[8mha:////4MS/vH41trzs00Po0E0pGUNOBhWrzmSzv5hfDkU5YjdoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0EWIitZKwwtMbIwT6y7YF5KKF/E1/oAhEhVbrHa2mecLVjHAgYIVncHeYWydGPxo0xIThf7iaRIdnUVLGMkb0ZipIW2OCzbEBpZkORQS1gZbT9GhZdjITt1V6RXa8sQhfXsJudM3eEAmk5lV4C/MAbbXUUfCn+evAOZhYCiqXf3pqn4DRZacnMAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4FsrCYu0LhsQHYO4pOKs4WGZfZldoH4j31GGrxEwXOEiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDBB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIpqu/l0tXsDta8fu8AAAAA=[0m[Pipeline] }
+[8mha:////4PW9gooC7MxTJXke1huvBroR8Db9EEnSgaAjBFEGOmxNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjKCWiorXc8ALjGOPEunNsB6fiRXyNPxCIRMUWq51t5vmCTQxwpGBYr3GwGJVl3k1mWSxTGK6OMuvpwhRhJKeZ0FlQp08rCkoa1hQlVBy2GpWjaNEk2PFe3mXtJJr6nMLyHTiUthvhAQVfzEmG9IU5wP42dZHw5/krgNn7BFXTNp9u2jeiMQyDwAAAAA==[0m[Pipeline] // stage
+[8mha:////4Dz+kujjUJ2TxOGL46LB1kP47GekOgarsTqAAa8vXfBGAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JEGI0Ta8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpGXFkO2r8nPN32z3hXrDAAAA[0m[Pipeline] stage
+[8mha:////4AC1xoVn9NeckMTJELm366zou+8448QEX/pYxb0MwyBPAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJMhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp9fVi8/n7LD+IlUZPEAAAA[0m[Pipeline] { (Push Docker Image)
+[8mha:////4NQvDmUcxB0h9KmJ4QDtD7gDsAkyOwSoGT5dC7cBKYItAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRg5txYm26+AW11Fpo3sO2CJNf5K/5DxJInLzDzT13Oe8PbGKAMweLraHOUdQOez/YeeHIobt5HrHlK2qmyN6gNKPkxtQrSk4G1mQ5FAK2hrTn6Mgm2IlWPVXpFdnyksL8nQTkrnnACzIxm5MKaYEpwP4+NJHp5/krgKlPUByqaulj/wXPks+1wAAAAA==[0m[Pipeline] tool
+[8mha:////4JFhuShqv9BVKuUMCV2zjc/zxncSaimygLDF0YeEeOn7AAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRQ5yME2vTxS+opdZC8x62RZj8In/Nf5BA4uQdbu65y3l/YBMDnDlYbA11jqJ22PvBzgtHDt3N84gtX1EzRfYGpRklN6ZeUXIysCbLoRCwNaQ9R0c2wU606qlKr8iWlxTm7yQgd80DXpCJ2ZxUSAtMAfb3oYlMP89fAUx9guJQVUsf+y+Oo9SswAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4H/pNVN+iP6m9dfhJ2ZyhLmXeYic+Ec14VR85aPj8EamAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRQ+JinFibLn5BLbUWmvewLcLkF/lr/oMEEifvcHPPXc77A5sY4MzBYmuocxS1w94Pdl44cuhunkds+YqaKbI3KM0ouTH1ipKTgTVZDoWArSHtOTqyCXaiVU9VekW2vKQwfycBuWse8IJMzOakQlpgCrC/D01k+nn+CmDqExSHqlr62H8BTfD5h8AAAAA=[0m[Pipeline] tool
+[8mha:////4Ng00E/rKqy9weGBwKtDGW6CeCLfpki2ohU0RpZxkzD/AAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRw+BgnFibLn5BLbUWmvewLcLkF/lr/oMEEifvcHPPXc77A5sY4MzBYmuocxS1w94Pdl44cuhunkds+YqaKbI3KM0ouTH1ipKTgTVZDoWArSHtOTqyCXaiVU9VekW2vKQwfycBuWse8IJMzOakQlpgCrC/D01k+nn+CmDqExSHqlr62H8BDMHinsAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4CXNjSX6DOubwbkRMXtTLuA3Q3+9H1fAzsV0B2DvSN17AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJYTExTqwNi09QS62F5v+xLZbJJ/LVfAcrJE7ecLm75PK93lB6BydymvUKB4NeGjbaSafEIrnhaimyni5MEnqyirUqttSpZq0tBQWrshwKDhuF0pI3qANseS8eorICdXUOLm1HDrnp7vCEjCdyEC4sZXawu02dJ/xx/gJgHgMU+7pe/PD9lh9OmTNixAAAAA==[0m[Pipeline] withEnv
+[8mha:////4F3MzLR1zma+4kWCF35dfNLQT5igeqJ/dkWazYtDbCFvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEAsIdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/l7v3YxAAAAA==[0m[Pipeline] {
+[8mha:////4H8JCVi9h1JCnLG3yftASAB7freDZPRxDS1Gy+JpKLL4AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDggYhKlrLDS8wtjFOrLtgOyQVL+Jr/AFDJCq2WO1sM88XzGKAAwXLGoOtw6gc63xv82IDhfbiaWANnZkijOQNE2YQpM1xQkHJwJSihIrD3KDyFB3aBAveyLusvURbn1LI355D6fQNHlDwbE4ypC+MAZbXXkfCn+evAMYuQbXe7D69XXVvhl0sRcAAAAA=[0m[Pipeline] sh
++ docker push keberflores/examenfinal:41
+The push refers to repository [docker.io/keberflores/examenfinal]
+tag does not exist: keberflores/examenfinal:41
+[8mha:////4Nw9k/EHyzliFrA1DxapBpW2PeYCtZPEYrYSgZm1TLkIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCBqEqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7PkHVbJtPb3ZvJ7MqW8AAAAA=[0m[Pipeline] }
+[8mha:////4OmYEaA4c7p9gJrR6SeQ4CAylucOtjGbhgv9YW3EubO9AAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPgUSoqK13HACYxvjxNoNtkNScSKuxh0wRKJiitG8ad7zBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3605vdGyyZxR3AAAAA[0m[Pipeline] // withEnv
+[8mha:////4JHHD19ME5IfJx7eABTe5b4noomPyaU5upQnZC4TICATAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjZDpEldZKwwuMbYwT6y7YDknFi/gaf8AQiYotVjvbzPMFqxjgSMGyzmDvMCrHBj/avNhEob94mlhHZ6YII3nDWjO1pE2zYEvJwJKihErA2qDyFB3aBBvRybusvURbn1LI30FA6fQNHlCIbE4ypC/MAbbXUUfCn+evAOZhSFDt9vzTnL8BEEtgLMAAAAA=[0m[Pipeline] }
+[8mha:////4Kb4ttLSAzZINB1LOL/x1DnBMUc0b68yoltdBuYnAEOuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIpNVX16t30DCEXAnsAAAAA=[0m[Pipeline] // stage
+[8mha:////4HwDMfV/PQRPHy+xNjUwgmwPw3YCifdTSJ0Zc1kYvzPhAAAAqR+LCAAAAAAAAP9tjTsOwjAQRDeJUtBScghH/KqIitZKwwlMYowTazfYG5yKE3E17kAgEhVTzRtp9J4vyIOHA3kjWo2dxVBb0bvBTE1E8t3FURQtnUVNGMhpUelYUaOPM1bEGuYkKWQSFhprR8GiYVjKVt1V4RSa4sR+2koJqW1u8IBETmZWnr8welhdhyYQ/jx/BTD2DOlmy5Ctd/vPNX8DWvknosMAAAA=[0m[Pipeline] stage
+[8mha:////4B2T++j70rUU00hy4tb+mV+TuFNVmdGveEfsNPcqqB++AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpkIAFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT8IZdAPxAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Ln9Y3pPqFES+KXMupIaqQXsAywsMfmkpl3hpt44Xc8CAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJAQFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LJLQst8AAAAA=[0m[Pipeline] echo
+Slack Notifications
+[8mha:////4Dqz+amJBzLSyvFc1pSCYySPV94e8J+Z9/nvfdecG9KAAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUQUSQTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBjn6Da7Q9zH/sv66i0MMAAAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: devopselgrupo, channel: #proyecto-final, color: danger, botUser: false, tokenCredentialId: slack, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4FG5ICI9FGfabZQqInpZ9iDbAatkx0JQ9Vj16Fvl9LhDAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUQQSRTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBj3yeodvvj3IcvFnY7t8AAAAA=[0m[Pipeline] }
+[8mha:////4IMgyug18XYGMIE/sNHDYwsVbeori/tlzNY5wde7w55TAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEqkQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBsq82nd9Ub4WIAd8AAAAA=[0m[Pipeline] // stage
+[8mha:////4OKUXNE0sxniC7XAcND6H5U0/UtJtxt5kNMS5iGBCGMzAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGHSuHyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUFSHiiHf7T/geO93vwAAAA==[0m[Pipeline] }
+[8mha:////4BDr86DhIP25yHDNupukCUaQ4Amf7dEUZlAH8C5N7mCHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIlEhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFsmg/YOnyGvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4A5YaRZdtwQfoncIgHM4es2u4lsXiRh+/f2cWmEedtOSAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEECfjxNqw+AW1rbXQvIftQ5j8In/Nf5BI4uSd7jnLeb1hkyKcKDrRWew9Ju3FEEa3PDFR7K+BJtHRRWjCRMGK1k4tGdus2BJbWJflUEjYWtSBkkfHsJOdeqgyKHTlmePijhJyb+7whEwuZVaRvzBH2N9Gkwh/nb8BmIeBoagONUNe1R8oigoRvwAAAA==[0m[Pipeline] }
+[8mha:////4IbEPV5Z15MhbG8AE5wborGxa3ZocptVzWTOsPEe94slAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGRyuHyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUFSHPUNe7T4Gigh7vwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JX+YbQLBa5hLlQmy4rn14qt8fBCJ+0NI0It6fqx+U4OAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGGgsqxss2k8QQRYgxkdmOyCJUn8mrewYzMWPmr/17zXm/YpAhHilYMBkeHqXMi+MnmJ2aK49XTLAa6iI4wkTdCmVlRb04rKmID64oSKglbg52n5NAy7OSgH7r2Gm195pjdQULp+js8oZC5zDryF5YI+9vUJ8Jf528AlhAYqqZtGcqm+QAZCF0pvwAAAA==[0m[Pipeline] }
+[8mha:////4IB0s1cPmaxjF192ILG3nSCVT6/0rszxHZopDDrWw5kEAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0Mahss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzesYoCaghWdwd5hbJ0Y/GjTExOF/uppEh1dREsYyRvRmKkhbU4LNsQGlmU5FBLWBltP0aFl2MhOPVTpFdryzCG5o4Tc6Ts8IZOpzCrwF+YA29uoI+Gv8zcA8zAwFNX+wJBXuw8hSs7YvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4P6WuXZWAYAtM3IOqtGgxAQ2d5PLeJ94X1p8RHdKoRnIAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjJBAFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmt2cQ2w9CBSyqvgAAAA==[0m[Pipeline] }
+[8mha:////4NvWfidiMtQmkJBdLRrO2rXJKEUvhK7bRMMvH3798NNnAAAAph+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjhJCQEBWtlYYXGMcYJ9ZdsC84FS/ia/yBiEhUbLUzzbzesEgRjhSdbC12HpPxsg+Dm57MFLtroCxbukhDmChYWdtcU2NPM9bEFuaJAkoFS4smUPLoGFaq1Q9dBY2uOnOc3EFB4Zs7PEGoqcw68hfGCOvb0CTCX+dvAMa+Zyg3uz2D2H4AMAcYtr4AAAA=[0m[Pipeline] // node
+[8mha:////4L7UjXDFC7yQwrtKLRhrWz/ZVxex4eNMFewzvSo1Ki7gAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkCgQoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmt2cQ2w8WHn/8vgAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

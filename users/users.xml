@@ -1,0 +1,18 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>noreply</string>
+      <string>noreply_17281167595716093448</string>
+    </entry>
+    <entry>
+      <string>admin</string>
+      <string>admin_17453829766367081116</string>
+    </entry>
+    <entry>
+      <string>slackapiuser</string>
+      <string>slackAPIUser_7744734464645250128</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

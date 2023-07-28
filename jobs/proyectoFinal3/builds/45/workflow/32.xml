@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3705.va_6a_c2775a_c17">
+    <parentIds>
+      <string>31</string>
+    </parentIds>
+    <id>32</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3705.va_6a_c2775a_c17">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>M2_HOME=/opt/maven</string>
+            <string>MAVEN_HOME=/opt/maven</string>
+            <string>PATH+MAVEN=/opt/maven/bin</string>
+            <string>JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64</string>
+            <string>PATH+JDK=/usr/lib/jvm/java-17-openjdk-amd64/bin</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>DOCKERHUB_CREDENTIALS</string>
+        <string>DOCKERHUB_CREDENTIALS_PSW</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1232.v1679fa_2f0f76">
+      <startTime>1690478386030</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

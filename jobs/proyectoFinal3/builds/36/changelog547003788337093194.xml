@@ -1,0 +1,27 @@
+commit dc0f98c5c4343b32757c722080288b1e9b7f998f
+tree 0f8ec2da4a612b6600778b9303d87468e1557083
+parent e8f71a317e71ba69f537067397e8a4001af0fd73
+author Keber Flores <keberflores@gmail.com> 2023-07-26 00:44:44 -0400
+committer GitHub <noreply@github.com> 2023-07-26 00:44:44 -0400
+
+    Update Jenkinsfile
+
+:100644 100644 b1683686ce52ffa5a3e5c8f801643d18f66ac54c d2954428feac83b55d13b06b378f6483152d4127 M	Jenkinsfile
+commit e8f71a317e71ba69f537067397e8a4001af0fd73
+tree c3e96b15a9bf4c53b828fe279b78340bcc31bbdf
+parent 73e314fff4366540d711d17daa95f6a0a4045cb6
+author Keber Flores <keberflores@gmail.com> 2023-07-26 00:15:56 -0400
+committer GitHub <noreply@github.com> 2023-07-26 00:15:56 -0400
+
+    Update Jenkinsfile
+
+:100644 100644 db4e1aec97cff43536ca8fd6090e3c0d2a66774a b1683686ce52ffa5a3e5c8f801643d18f66ac54c M	Jenkinsfile
+commit 73e314fff4366540d711d17daa95f6a0a4045cb6
+tree da77bd245e25bacabce41dd1968b4618162841b5
+parent 060bae7318da759966f1d9019c8c451401b7d415
+author Keber Flores <keberflores@gmail.com> 2023-07-26 00:13:45 -0400
+committer GitHub <noreply@github.com> 2023-07-26 00:13:45 -0400
+
+    Jenkinsfile: Using environment params for nexus and docker
+
+:100644 100644 4fd77e2ae24ac387f9d2be95fa694c31d1b6e31b db4e1aec97cff43536ca8fd6090e3c0d2a66774a M	Jenkinsfile

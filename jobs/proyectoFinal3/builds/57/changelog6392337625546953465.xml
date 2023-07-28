@@ -1,0 +1,18 @@
+commit 56b4f52022b9811cf10c86a87c33b056a16830c8
+tree dc323b616b9a44bd055db49cbf42187a195fddc8
+parent fcc26d5245f462b898452bad389072ebb83deeaa
+author Keber Flores <keberflores@gmail.com> 2023-07-27 17:01:36 -0400
+committer GitHub <noreply@github.com> 2023-07-27 17:01:36 -0400
+
+    Update Jenkinsfile - fix quotes inside quotes
+
+:100644 100644 c17d81188205a744d79aa68c07ae8ee9116dbe15 64d958150137de4baf8531bbdf1c84ced4ccbd6e M	Jenkinsfile
+commit fcc26d5245f462b898452bad389072ebb83deeaa
+tree 4b1e9883b256026b1ab9447df768dc448ccbc1c2
+parent 7eb918ce3295e48cbf55188628a0a79761ff6752
+author Keber Flores <keberflores@gmail.com> 2023-07-27 16:58:21 -0400
+committer GitHub <noreply@github.com> 2023-07-27 16:58:21 -0400
+
+    Update Jenkinsfile - fix to check, stop and remove if previous docker image is present and running
+
+:100644 100644 683468c8715b8f3470101595d17f5a530a48db05 c17d81188205a744d79aa68c07ae8ee9116dbe15 M	Jenkinsfile
